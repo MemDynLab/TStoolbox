@@ -1,6 +1,6 @@
 function A = subsasgn(A, S, B)
 
-% overload of operator {} for element. 
+% overload of operator {} for element for assignments. 
 % if subscripts are numieric, the correspondign elements of the array are returned, if
 % subscript is a string, all the tsd's are returned that contain that
 % string in their name 
