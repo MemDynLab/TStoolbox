@@ -80,7 +80,7 @@ for iTSD = 2:length(varargin)
     
     tempT = [tempT; t1];
     tempD = [tempD; full(Data(varargin{iTSD}))];
-    tempIS = cat(tsdOUT.timeInterval, iSet);
+    tempIS = cat(tempIS, iSet);
     
     %     tsdOUT.t = cat(1,tsdOUT.t, t1);
     %     tsdOUT.data = cat(1,tsdOUT.data, full(Data(varargin{iTSD})));
